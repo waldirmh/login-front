@@ -1,0 +1,22 @@
+:root {
+  --color-fondo: black;
+  --fondo-button: rgb(122, 245, 245);
+  --color-text: rgb(233, 230, 230);
+  --color-borde: rgb(122, 245, 245);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Anton", sans-serif;
+  background-color: var(--color-fondo);
+}
+
+#root {
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
