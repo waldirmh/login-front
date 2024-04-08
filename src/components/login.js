@@ -22,7 +22,6 @@ const LoginForm = () => {
             width={250}
           />
         </div>
-
         <div className="mb-3 align-items-center">
           <label
             htmlFor="exampleInputEmail1"
@@ -62,7 +61,7 @@ const LoginForm = () => {
           >
             Contraseña
           </label>
-          <div className="input-group-password input-group input-group">
+          <div className="input-group input-group-password">
             <span className="input-group-text">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -72,10 +71,9 @@ const LoginForm = () => {
                 className="icon-userName bi bi-lock-fill"
                 viewBox="0 0 16 16"
               >
-                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2" />
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
               </svg>
             </span>
-
             <input
               type="password"
               className="form-control"
@@ -85,20 +83,6 @@ const LoginForm = () => {
             />
           </div>
         </div>
-      {/*   <div className="container-password-icon mb-3 align-items-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            className="icon-eye bi bi-eye-slash-fill"
-            viewBox="0 0 16 16"
-          >
-            <path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7 7 0 0 0 2.79-.588M5.21 3.088A7 7 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474z" />
-            <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12z" />
-          </svg>
-        </div> */}
-
         <div className="container-text-password d-flex justify-content-between me-0 gap-2">
           <a href="#" className="text-password">
             ¿Olvidaste tu Contraseña?
@@ -114,7 +98,7 @@ const LoginForm = () => {
           </button>
         </div>
         <div className="container-icons d-flex justify-content-center gap-3">
-        <svg
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
