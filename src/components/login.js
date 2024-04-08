@@ -44,6 +44,7 @@ const LoginForm = () => {
               </svg>
             </span>
             <input
+              placeholder="User@gmail.com"
               type="email"
               className="form-control"
               id="exampleInputEmail1"
@@ -75,6 +76,7 @@ const LoginForm = () => {
               </svg>
             </span>
             <input
+            placeholder="Contraseña"
               type="password"
               className="form-control"
               id="exampleInputPassword1"
