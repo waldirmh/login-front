@@ -76,7 +76,7 @@ const LoginForm = () => {
               </svg>
             </span>
             <input
-            placeholder="Contraseña"
+              placeholder="Contraseña"
               type="password"
               className="form-control"
               id="exampleInputPassword1"
